@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="44px" viewBox="0 0 56 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 13</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dropdown" transform="translate(-506.000000, -287.000000)">
+            <g id="Dropwown" transform="translate(456.682848, 119.000000)">
+                <g id="Group-13" transform="translate(49.317152, 168.000000)">
+                    <polygon id="Fill-1" fill="#FFFFFF" points="0.518 42.6356 54.81 42.6356 54.81 0.5176 0.518 0.5176"></polygon>
+                    <polygon id="Fill-2" fill="#FFFF8D" points="4.504 42.6356 33.934 42.6356 33.934 17.5116 4.504 17.5116"></polygon>
+                    <polygon id="Fill-3" fill="#EA80FC" points="37.435 23.3086 54.809 23.3086 54.809 16.5146 37.435 16.5146"></polygon>
+                    <polygon id="Fill-4" fill="#EA80FC" points="37.435 32.9716 54.809 32.9716 54.809 26.1776 37.435 26.1776"></polygon>
+                    <polygon id="Fill-5" fill="#EA80FC" points="37.435 42.0706 54.809 42.0706 54.809 35.2766 37.435 35.2766"></polygon>
+                    <g id="Group-12" transform="translate(0.000000, 0.153600)" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.035">
+                        <polygon id="Stroke-6" points="0.517 42.482 54.809 42.482 54.809 0.364 0.517 0.364"></polygon>
+                        <line x1="0.5177" y1="13.4915" x2="54.8097" y2="13.4915" id="Stroke-8"></line>
+                        <line x1="33.9333" y1="13.4915" x2="33.9333" y2="42.4825" id="Stroke-9"></line>
+                        <line x1="33.9333" y1="23.1551" x2="54.8093" y2="23.1551" id="Stroke-10"></line>
+                        <line x1="33.9333" y1="32.8187" x2="54.8093" y2="32.8187" id="Stroke-11"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

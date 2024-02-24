@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 13</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dropdown" transform="translate(-967.000000, -287.000000)">
+            <g id="Dropwown" transform="translate(456.682848, 119.000000)">
+                <g id="Group-13" transform="translate(510.317152, 168.000000)">
+                    <path d="M38.6539,43.5569 L5.4209,43.5569 C2.7239,43.5569 0.5179,41.3499 0.5179,38.6539 L0.5179,5.4209 C0.5179,2.7239 2.7239,0.5179 5.4209,0.5179 L38.6539,0.5179 C41.3509,0.5179 43.5569,2.7239 43.5569,5.4209 L43.5569,38.6539 C43.5569,41.3499 41.3509,43.5569 38.6539,43.5569" id="Fill-1" fill="#FFFFFF"></path>
+                    <path d="M40.5885,43.5569 L9.0275,43.5569 C7.3955,43.5569 6.0595,42.2219 6.0595,40.5889 L6.0595,9.0279 C6.0595,7.3949 7.3955,6.0589 9.0275,6.0589 L40.5885,6.0589 C42.2215,6.0589 43.5575,7.3949 43.5575,9.0279 L43.5575,40.5889 C43.5575,42.2219 42.2215,43.5569 40.5885,43.5569" id="Fill-3" fill="#75DFFC"></path>
+                    <path d="M38.6539,43.5569 L5.4209,43.5569 C2.7239,43.5569 0.5179,41.3499 0.5179,38.6539 L0.5179,5.4209 C0.5179,2.7239 2.7239,0.5179 5.4209,0.5179 L38.6539,0.5179 C41.3509,0.5179 43.5569,2.7239 43.5569,5.4209 L43.5569,38.6539 C43.5569,41.3499 41.3509,43.5569 38.6539,43.5569 Z" id="Stroke-5" stroke="#212121" stroke-width="1.035" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline id="Stroke-7" stroke="#212121" stroke-width="1.035" stroke-linecap="round" stroke-linejoin="round" points="31.3082 15.8933 38.2282 23.5723 31.3082 31.2503"></polyline>
+                    <polyline id="Stroke-9" stroke="#212121" stroke-width="1.035" stroke-linecap="round" stroke-linejoin="round" points="15.7936 31.2503 8.8736 23.5723 15.7936 15.8933"></polyline>
+                    <line x1="26.2902" y1="16.3718" x2="20.9232" y2="30.7838" id="Stroke-11" stroke="#212121" stroke-width="1.035" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

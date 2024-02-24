@@ -1,0 +1,29 @@
+<svg width="33px" height="46px" viewBox="0 0 33 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 32</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dropdown" transform="translate(-972.000000, -167.000000)">
+            <g id="Dropwown" transform="translate(456.682848, 119.000000)">
+                <g id="Group-32" transform="translate(515.817152, 48.000000)">
+                    <polygon id="Fill-1" fill="#FFFFFF" points="0.5004 5.2394 7.5954 45.2994 28.7074 41.5594 21.6114 1.4994"></polygon>
+                    <polygon id="Fill-2" fill="#A7FFEB" points="1.0395 8.2841 7.5955 45.2991 25.2525 42.1721 18.6965 5.1561"></polygon>
+                    <g id="Group-31" transform="translate(0.000000, 0.798800)">
+                        <polygon id="Stroke-3" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="28.707 40.7604 7.595 44.5004 0.5 4.4404 21.612 0.7014"></polygon>
+                        <path d="M25.1597,20.7311 C25.7647,24.1471 21.5287,27.7531 15.6997,28.7851 C9.8687,29.8181 4.6527,27.8861 4.0477,24.4701 C3.4427,21.0541 7.6787,17.4481 13.5087,16.4161 C19.3377,15.3831 24.5547,17.3151 25.1597,20.7311 Z" id="Stroke-5" stroke="#212121" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="Stroke-7" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="19.6118 9.527 18.6958 4.358 15.3728 4.946"></polyline>
+                        <polyline id="Stroke-9" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="23.7974 33.1588 24.7134 38.3278 21.3894 38.9168"></polyline>
+                        <polyline id="Stroke-11" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="9.5952 35.674 10.5112 40.844 13.8342 40.255"></polyline>
+                        <polyline id="Stroke-13" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="5.4097 12.0421 4.4937 6.8731 7.8177 6.2841"></polyline>
+                        <polygon id="Fill-15" fill="#FFFFFF" points="31.333 42.942 9.892 42.942 9.892 2.259 31.333 2.259"></polygon>
+                        <polygon id="Fill-17" fill="#A7FFEB" points="27.8242 42.942 9.8922 42.942 9.8922 5.351 27.8242 5.351"></polygon>
+                        <polygon id="Stroke-19" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="31.333 42.942 9.892 42.942 9.892 2.259 31.333 2.259"></polygon>
+                        <path d="M31.333,22.6007 C31.333,26.0697 26.533,28.8817 20.613,28.8817 C14.692,28.8817 9.892,26.0697 9.892,22.6007 C9.892,19.1317 14.692,16.3197 20.613,16.3197 C26.533,16.3197 31.333,19.1317 31.333,22.6007 Z" id="Stroke-21" stroke="#212121" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="Stroke-23" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="27.8242 10.6007 27.8242 5.3507 24.4492 5.3507"></polyline>
+                        <polyline id="Stroke-25" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="27.8242 34.6002 27.8242 39.8502 24.4492 39.8502"></polyline>
+                        <polyline id="Stroke-27" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="13.4009 34.6002 13.4009 39.8502 16.7759 39.8502"></polyline>
+                        <polyline id="Stroke-29" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="13.4009 10.6007 13.4009 5.3507 16.7759 5.3507"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

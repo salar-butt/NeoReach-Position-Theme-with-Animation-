@@ -1,0 +1,2228 @@
+* {
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+nav {
+  position: relative;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px gray;
+}
+nav > img {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  height: 33%;
+  width: 20%;
+}
+nav .ul {
+  position: absolute;
+  top: 38%;
+  left: 25%;
+  list-style: none;
+}
+nav .ul > li {
+  float: left;
+  margin-left: 55px;
+  height: 25px;
+  font-size: 14px;
+}
+nav > h3 {
+  position: absolute;
+  top: 39%;
+  left: 82%;
+  font-size: 14px;
+  font-weight: 10;
+}
+nav .get {
+  position: absolute;
+  top: 20%;
+  left: 87%;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 600;
+  height: 42px;
+  width: 120px;
+  background-color: rgb(0, 200, 175);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+nav > button:hover {
+  background-color: black;
+  cursor: pointer;
+  color: rgb(0, 200, 175);
+  transition-duration: 1s;
+}
+.ul .solution {
+  height: 44px;
+}
+.ul .solution:hover {
+  border: none;
+}
+.ul .solution .tech {
+  position: absolute;
+  top: 43px;
+  height: 400px;
+  left: -100px;
+  width: 860px;
+  background-color: #ffffff;
+  z-index: 10;
+  display: none;
+  box-shadow: 0px 0px 13px -5px gray;
+}
+.solution:hover .tech {
+  display: block;
+}
+.ul > li:hover {
+  cursor: pointer;
+}
+nav > ul > li:nth-child(2) .underline {
+  left: 29%;
+}
+nav > ul > li:nth-child(3) .underline {
+  left: 50%;
+}
+nav > ul > li:nth-child(4) .underline {
+  left: 70%;
+}
+nav > ul > li:nth-child(5) .underline {
+  left: 90%;
+}
+.underline {
+  position: absolute;
+  top: 50%;
+  height: 20px;
+  width: 0px;
+  left: 9.3%;
+}
+nav > ul > li:hover .underline {
+  width: 60px;
+  transition: 0.6s;
+}
+.tech .volume {
+  position: absolute;
+  line-height: 1.7;
+  height: 33%;
+  width: 45%;
+}
+.volume > img {
+  height: 35px;
+  left: 5%;
+  position: absolute;
+  transition: 1s;
+  top: 27%;
+}
+.volume:hover img {
+  top: 16%;
+  transition: 1s;
+}
+.volume > h1 {
+  position: absolute;
+  top: 32%;
+  left: 30%;
+  font-size: 15px;
+  color: black;
+  transition: 1s;
+  width: 200px;
+}
+.volume:hover h1 {
+  color: rgb(0, 200, 175);
+  transition: 1s;
+}
+.volume > h2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+  width: 300px;
+}
+.tech .software {
+  position: absolute;
+  top: 33%;
+}
+.tech .paid {
+  position: absolute;
+  top: 66%;
+}
+.tech .line {
+  position: absolute;
+  height: 90%;
+  left: 50%;
+  width: 1px;
+  top: 5%;
+  background-color: gray;
+}
+.tech .fraud {
+  position: absolute;
+  left: 55%;
+}
+.tech .api {
+  position: absolute;
+  top: 33%;
+  left: 55%;
+}
+.tech .crypto {
+  position: absolute;
+  top: 66%;
+  left: 55%;
+}
+.ul .Resources .tech {
+  background-color: #ffffff;
+  height: 500px;
+}
+.Resources .tech .software {
+  position: absolute;
+  top: 21%;
+}
+.Resources .tech .paid {
+  position: absolute;
+  top: 40%;
+}
+.Resources .tech .fraud {
+  position: absolute;
+  left: 0%;
+  top: 63%;
+}
+.Resources .tech .api {
+  position: absolute;
+  left: 45%;
+  top: 0%;
+}
+.Resources .tech .crypto {
+  position: absolute;
+  left: 45%;
+  top: 21%;
+}
+.Resources .tech .info {
+  position: absolute;
+  left: 45%;
+  top: 42%;
+}
+.login:hover img {
+  width: 50px;
+  top: 15%;
+  left: -5%;
+}
+.login .for {
+  position: relative;
+  height: 100px;
+  background-color: #ffffff;
+  width: 250px;
+  display: none;
+  left: -100%;
+  box-shadow: 0px 0px 7px -1px gray;
+}
+.for > h1 {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  font-weight: 100;
+  font-weight: 600;
+  font-size: 15px;
+}
+.for > h2 {
+  position: absolute;
+  font-weight: 100;
+  top: 50%;
+  left: 15%;
+  font-weight: 600;
+  font-size: 15px;
+}
+.login:hover .for {
+  display: block;
+  cursor: pointer;
+}
+
+.run {
+  z-index: 1;
+  position: relative;
+  top: 70px;
+  height: 500px;
+  width: 100%;
+}
+.run .world {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+}
+.world > h1 {
+  position: absolute;
+  font-size: 30px;
+  top: 26%;
+  left: 14%;
+  line-height: 1.3;
+}
+.world > h2 {
+  position: absolute;
+  font-size: 15px;
+  top: 56%;
+  font-weight: 100;
+  line-height: 1.7;
+  left: 14%;
+}
+.world .learn {
+  position: absolute;
+  top: 79%;
+  left: 14%;
+  height: 50px;
+  width: 160px;
+  border: none;
+  background-color: rgb(0, 200, 175);
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: 1s;
+  font-weight: 600;
+  z-index: 1;
+  border-radius: 10px;
+  z-index: 1;
+}
+.ref {
+  position: absolute;
+  bottom: 7%;
+  left: 16%;
+  height: 50px;
+  z-index: -1;
+  width: 160px;
+}
+.world .learn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: rgb(0, 200, 175);
+}
+.run > .circle {
+  position: absolute;
+  /* z-index: 1; */
+  height: 100%;
+  width: 60%;
+  left: 40%;
+  overflow: hidden;
+}
+.circle > :nth-child(1) {
+  position: absolute;
+  height: 180px;
+  top: 17%;
+  width: 180px;
+}
+
+.circle > .redu {
+  position: absolute;
+  border: 2px solid white;
+  height: 420px;
+  width: 530px;
+
+  /* z-index: 1; */
+  top: 15%;
+  overflow: hidden;
+  left: 5%;
+}
+.redu > .pic {
+  position: absolute;
+  width: 70%;
+  height: 90%;
+  z-index: 1;
+  top: 0%;
+  left: 0%;
+}
+.circle > .img {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  z-index: 1;
+  top: 25%;
+  left: 40%;
+  animation: img;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes img {
+  0% {
+    top: 25%;
+  }
+  100% {
+    top: 21%;
+  }
+}
+.circle > .img1 {
+  position: absolute;
+  left: 5%;
+  top: 65%;
+  animation: img1;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes img1 {
+  0% {
+    top: 65%;
+  }
+  100% {
+    top: 61%;
+  }
+}
+.circle > .redu > .img3 {
+  height: 130px;
+  position: absolute;
+  top: 44%;
+  left: 25%;
+  /* z-index: 2; */
+  width: 100px;
+  animation: img3;
+  animation-timing-function: linear;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes img3 {
+  0% {
+    left: 26%;
+  }
+  100% {
+    left: 89%;
+  }
+}
+.circle > .redu > .img4 {
+  left: 15%;
+  animation: img4;
+  animation-timing-function: linear;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes img4 {
+  0% {
+    left: 6%;
+  }
+  100% {
+    left: 95%;
+  }
+}
+.circle .hexa {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  z-index: 3;
+  height: 45px;
+}
+.redu > :nth-child(3) {
+  position: absolute;
+  top: 69.5%;
+  left: 45%;
+  transform: rotate(-20deg);
+  z-index: 3;
+  height: 30px;
+  animation: horn 3s infinite;
+}
+@keyframes horn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.circle > .hero {
+  position: absolute;
+  height: 380px;
+  width: 380px;
+  left: 62%;
+  z-index: 2;
+  top: 15%;
+}
+.circle > .search {
+  position: absolute;
+  top: 47%;
+  left: 70%;
+  z-index: 3;
+  height: 40px;
+  width: 160px;
+  border-radius: 10px;
+}
+.circle > .bar {
+  position: absolute;
+  top: 47.2%;
+  border-radius: 10px;
+  left: 85%;
+  z-index: 2;
+  height: 33px;
+  border: 1px solid black;
+  background-color: #75dffc;
+  width: 160px;
+}
+.bar .black {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  height: 2%;
+  background-color: black;
+}
+.bar > img {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  z-index: 3;
+  animation: search;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes search {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 20%;
+  }
+}
+.circle .round {
+  position: absolute;
+  top: 33%;
+  height: 1%;
+  width: 1%;
+  background-color: white;
+  left: 82.1%;
+  animation: round 4s linear infinite;
+  border-radius: 100px;
+  z-index: 3;
+}
+@keyframes round {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: white;
+  }
+}
+.circle .r1 {
+  position: absolute;
+  left: 97%;
+}
+.circle .r2 {
+  /* border:none; */
+
+  position: absolute;
+  top: 33%;
+  left: 97%;
+  animation: r2 3s linear infinite;
+}
+@keyframes r2 {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgb(0, 200, 175);
+  }
+}
+.circle .r3 {
+  position: absolute;
+  top: 35.4%;
+  left: 97%;
+  animation: r3 2s linear infinite;
+  
+}
+@keyframes r3 {
+  0% {
+    background-color: white;
+  }
+  100% {
+border: 1px solid black;  }
+}
+.circle .r4 {
+  position: absolute;
+  top: 38%;
+  left: 97.2%;
+  background-color: purple;
+  animation: r4 6s linear infinite;
+}
+@keyframes r4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.circle .r5 {
+  position: absolute;
+  animation: r5 2.5s linear infinite;
+  top: 33%;
+  left: 99.2%;
+  background-color: red;
+}
+@keyframes r5 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.circle .r6 {
+  position: absolute;
+  top: 35.4%;
+  background-color: rgb(0, 200, 175);
+  animation: r6 4s linear infinite;
+  left: 99.2%;
+}
+@keyframes r6 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.circle .r7 {
+  position: absolute;
+  top: 38%;
+  left: 99.2%;
+  animation: r7 3.5s linear infinite;
+  left: 99.2%;
+}
+@keyframes r7 {
+  0% {
+  border:none;
+
+  }
+  100% {
+border: 1px solid black;
+
+  }
+}
+.circle .digo {
+  position: absolute;
+  top: 56%;
+  left: 71%;
+  z-index: 3;
+  height: 60px;
+  width: 250px;
+  overflow: hidden;
+}
+.digo .bigo {
+  position: absolute;
+  top: 10%;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  animation: line;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes line {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.dot {
+  position: relative;
+  height: 260px;
+  top: 70px;
+  width: 100%;
+}
+.dot :nth-child(1) {
+  position: absolute;
+  left: -13%;
+  /* width:100px; */
+  top: 30%;
+  height: 75px;
+  transform: rotate(80deg);
+}
+.dot .air {
+  height: 40px;
+  position: absolute;
+  top: 35%;
+  left: 7%;
+  width: 80px;
+}
+.dot .amazon {
+  left: 23%;
+}
+.dot .nyt {
+  left: 39%;
+}
+.dot .honda {
+  left: 55%;
+}
+.dot .mart {
+  left: 70%;
+}
+.dot .bet {
+  left: 85%;
+}
+
+.leading {
+  position: relative;
+  top: 70px;
+  height: 320px;
+  width: 100%;
+}
+.leading > h1 {
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  font-size: 30px;
+}
+.leading > h2 {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  font-size: 15.5px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.7;
+}
+.leading .butt2 {
+  position: absolute;
+  top: 66%;
+  left: 45%;
+  background-color: rgb(0, 200, 175);
+  height: 40px;
+  border-radius: 10px;
+  width: 120px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: 1s;
+  color: white;
+  z-index: 1;
+}
+.butt2:hover {
+  transition: 1s;
+  cursor: pointer;
+  background-color: black;
+  color: rgb(0, 200, 175);
+}
+.leading .reg {
+  position: absolute;
+  top: 75%;
+  left: 46%;
+  height: 20px;
+  width: 120px;
+}
+
+.access {
+  position: relative;
+  /* top:70px; */
+  height: 550px;
+  width: 100%;
+}
+.access .connected {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 0%;
+}
+.connected > h3 {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.7px;
+}
+.connected > h1 {
+  position: absolute;
+  top: 27%;
+  left: 13%;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.connected > p {
+  position: absolute;
+  top: 44%;
+  left: 13%;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.connected .butt3 {
+  position: absolute;
+  top: 68%;
+  color: white;
+  left: 13%;
+  background-color: rgb(0, 200, 175);
+  height: 40px;
+  border-radius: 10px;
+  width: 120px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.7px;
+  transition: 1s;
+  z-index: 1;
+}
+.butt3:hover {
+  background-color: black;
+  color: rgb(0, 200, 175);
+  transition: 1s;
+}
+.connected .reb {
+  position: absolute;
+  top: 72%;
+  left: 13%;
+  height: 30px;
+  width: 130px;
+}
+.access .box {
+  position: absolute;
+  left: 40%;
+  height: 100%;
+  width: 60%;
+}
+.box :nth-child(1) {
+  position: absolute;
+  top: 20%;
+  height: 60%;
+  width: 100%;
+}
+.access .big {
+  position: absolute;
+  top: 20%;
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+.big :nth-child(1) {
+  position: absolute;
+  top: 19%;
+  left: 16%;
+  height: 270px;
+  width: 170px;
+  animation: big1;
+  animation-timing-function: linear;
+  animation-duration: 0.3s;
+}
+@keyframes big1 {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 19%;
+  }
+}
+
+.big :nth-child(2) {
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  height: 270px;
+  width: 170px;
+  animation: big2;
+  animation-timing-function: linear;
+  animation-duration: 0.3s;
+}
+@keyframes big2 {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 19%;
+  }
+}
+
+.create {
+  position: relative;
+}
+.create .connected {
+  left: 60%;
+}
+.create .connected > p {
+  top: 40%;
+}
+.create .box {
+  left: 0%;
+}
+
+.create .big {
+  position: absolute;
+  height: 230px;
+  width: 155px;
+  left: 10%;
+  top: 33%;
+}
+.create .big :nth-child(1) {
+  height: 180px;
+  width: 80%;
+  left: 10%;
+}
+.create .box :nth-child(3) {
+  position: absolute;
+  height: 100px;
+  width: 140px;
+  top: 21%;
+  left: 6%;
+}
+
+.manage {
+  position: relative;
+}
+
+.manage .connected > h1 {
+  top: 27%;
+}
+.manage .connected > p {
+  top: 39%;
+}
+.manage .connected .butt3 {
+  top: 65%;
+}
+.manage .connected .reb {
+  top: 70%;
+}
+.manage .big {
+  position: absolute;
+  width: 230px;
+  top: 15%;
+  height: 300px;
+  left: 62%;
+}
+.manage .imo {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  left: 76%;
+  top: 70%;
+}
+
+.amplify {
+  position: relative;
+}
+.amplify .connected {
+  position: absolute;
+  top: 0%;
+  left: 60%;
+}
+.amplify .connected > h1 {
+  font-size: 30px;
+  top: 27%;
+  font-weight: 600;
+}
+.amplify .connected > p {
+  top: 39%;
+}
+.amplify .butt3 {
+  top: 65%;
+}
+.amplify .reb {
+  top: 70%;
+}
+.amplify .box {
+  position: absolute;
+  left: 0%;
+}
+.amplify .box .work {
+  position: absolute;
+  top: 25%;
+  left: 82%;
+  height: 70px;
+  width: 80px;
+}
+.amplify .big {
+  position: absolute;
+  height: 300px;
+  width: 220px;
+  left: 62%;
+}
+.amplify .big > img {
+  position: absolute;
+  height: 60%;
+  width: 70%;
+}
+
+.integrate {
+  position: relative;
+  overflow: hidden;
+}
+.integrate .connected > p {
+  top: 45%;
+}
+
+.integrate .box :nth-child(2) {
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  height: 370px;
+  width: 660px;
+}
+
+.integrate .arrow {
+  position: absolute;
+  height: 260px;
+  width: 125px;
+  top: 36%;
+  right: 0.2%;
+}
+.integrate .arrow > img {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  height: 50px;
+  width: 50px;
+  animation-name: arrow;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  /* animation: steps(10); */
+}
+@keyframes arrow {
+  0% {
+    left: 100%;
+    top: 0;
+    transform: rotate(0deg);
+  }
+  20% {
+    left: 0%;
+    top: 0;
+  }
+  40% {
+    left: 0%;
+    top: 0;
+  }
+  60% {
+    left: 0%;
+    transform: rotate(0deg);
+    top: 0;
+  }
+  100% {
+    left: 0%;
+    top: 90%;
+    transform: rotate(110deg);
+  }
+}
+
+.integrate .horns {
+  position: absolute;
+  top: 32%;
+  left: 75.5%;
+  height: 50px;
+  width: 70px;
+  animation: horns;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3.5s;
+}
+@keyframes horns {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.everything {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+.everything > h1 {
+  position: absolute;
+  font-size: 22px;
+  left: 27%;
+  top: 2%;
+}
+.everything > h2 {
+  position: absolute;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 1.6;
+  top: 25%;
+  left: 20%;
+}
+.everything .butt4 {
+  position: absolute;
+  top: 70%;
+  left: 39%;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(0, 200, 175);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  transition: 1s;
+  z-index: 1;
+}
+.butt4:hover {
+  background-color: black;
+  cursor: pointer;
+  color: rgb(0, 200, 175);
+  transition: 1s;
+}
+.everything .rex {
+  position: absolute;
+  top: 75%;
+  left: 42%;
+  height: 50px;
+  width: 200px;
+}
+
+.blue {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blue :nth-child(1) {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 10%;
+  left: 27%;
+  animation: dog1 1s linear;
+}
+@keyframes dog1 {
+  0% {
+    top: 120%;
+    transform: rotate(90deg);
+  }
+  50% {
+    top: 100%;
+    transform: rotate(20deg);
+  }
+  70% {
+    top: 100%;
+    transform: rotate(20deg);
+  }
+  100% {
+    top: 10%;
+    transform: rotate(0deg);
+  }
+}
+
+.blue :nth-child(2) {
+  height: 200px;
+  position: absolute;
+  left: 20%;
+  top: 2%;
+  animation: dog2 0.6s linear;
+}
+@keyframes dog2 {
+  0% {
+    top: 120%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 2%;
+  }
+}
+.blue :nth-child(3) {
+  position: absolute;
+  left: 6%;
+  top: 20%;
+  height: 200px;
+  animation: dog3 0.6s linear;
+}
+@keyframes dog3 {
+  0% {
+    top: 120%;
+    transform: rotate(90deg);
+  }
+  50% {
+    top: 120%;
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    top: 20%;
+  }
+}
+.blue :nth-child(4) {
+  position: absolute;
+  left: -4%;
+  top: 0%;
+  height: 100px;
+  width: 100px;
+  animation: dog4 0.8s linear;
+}
+@keyframes dog4 {
+  0% {
+    top: 100%;
+    left: 5%;
+  }
+  50% {
+    top: 100%;
+    left: 5%;
+  }
+  100% {
+    top: 0%;
+    left: -4%;
+  }
+}
+.blue :nth-child(5) {
+  position: absolute;
+  top: 65%;
+  left: 17%;
+  height: 70px;
+  animation: dog5 0.5s linear;
+}
+@keyframes dog5 {
+  0% {
+    top: 100%;
+  }
+  60% {
+    top: 100%;
+  }
+  100% {
+    top: 65%;
+  }
+}
+.blue :nth-child(6) {
+  position: absolute;
+  height: 270px;
+  width: 180px;
+  top: 20%;
+  left: 43%;
+  animation: dog6 0.5s linear;
+}
+@keyframes dog6 {
+  0% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  100% {
+    top: 20%;
+    transform: rotate(0deg);
+  }
+}
+.blue :nth-child(7) {
+  position: absolute;
+  left: 40%;
+  top: 0%;
+  height: 360px;
+  width: 570px;
+  animation: dog7 0.7s linear;
+}
+@keyframes dog7 {
+  0% {
+    top: 100%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+.blue :nth-child(8) {
+  position: absolute;
+  left: 60%;
+  top: 12%;
+  height: 30px;
+  width: 60px;
+  animation: dog8 0.5s linear;
+}
+@keyframes dog8 {
+  0% {
+    top: 100%;
+    transform: rotate(-50deg);
+  }
+  50% {
+    top: 100%;
+    transform: rotate(-20deg);
+  }
+  100% {
+    top: 12%;
+    transform: rotate(0deg);
+  }
+}
+.blue :nth-child(9) {
+  position: absolute;
+  left: 63%;
+  top: 30%;
+  height: 120px;
+  width: 120px;
+  animation: dog9 0.7s linear;
+}
+@keyframes dog9 {
+  0% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  20% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  40% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  60% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  100% {
+    top: 30%;
+    transform: rotate(0deg);
+  }
+}
+.blue :nth-child(10) {
+  position: absolute;
+  left: 70%;
+  top: 38%;
+  height: 120px;
+  width: 120px;
+  animation: dog10 0.9s linear;
+}
+@keyframes dog10 {
+  0% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  20% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  40% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  60% {
+    top: 100%;
+  }
+  70% {
+    top: 100%;
+  }
+  100% {
+    top: 30%;
+    transform: rotate(0deg);
+  }
+}
+.blue :nth-child(11) {
+  position: absolute;
+  left: 75%;
+  top: 63%;
+  height: 70px;
+  width: 70px;
+  animation: dog11 0.6s linear;
+}
+@keyframes dog11 {
+  0% {
+    top: 120%;
+    left: 60%;
+    transform: rotate(-80deg);
+  }
+  40% {
+    top: 100%;
+    left: 60%;
+  }
+  100% {
+    top: 70%;
+    left: 73%;
+    transform: rotate(0deg);
+  }
+}
+.blue :nth-child(12) {
+  position: absolute;
+  left: 90%;
+  top: 10%;
+  height: 140px;
+  width: 140px;
+  animation: dog12 0.7s linear;
+}
+@keyframes dog12 {
+  0% {
+    top: 100%;
+    left: 80%;
+  }
+  30% {
+    top: 100%;
+    left: 80%;
+  }
+  100% {
+    top: 10%;
+    left: 90%;
+  }
+}
+.blue :nth-child(13) {
+  position: absolute;
+  left: 82%;
+  top: 15%;
+  height: 220px;
+  width: 150px;
+  animation: dog13 0.7s linear;
+}
+@keyframes dog13 {
+  0% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  30% {
+    top: 100%;
+    transform: rotate(-90deg);
+  }
+  100% {
+    top: 15%;
+    transform: rotate(0deg);
+  }
+}
+
+.see {
+  position: relative;
+  height: 250px;
+  width: 100%;
+}
+.see > h2 {
+  position: absolute;
+  top: 32%;
+  font-size: 23px;
+  font-weight: 600;
+  left: 5%;
+}
+.see > h3 {
+  position: absolute;
+  top: 55%;
+  line-height: 1.5;
+  font-size: 15.5px;
+  font-weight: 100;
+  left: 5%;
+}
+.see .seek {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  height: 40px;
+  width: 170px;
+  background-color: rgb(0, 200, 175);
+  color: white;
+  border-radius: 10px;
+  font-size: 11px;
+  border: none;
+  letter-spacing: 1px;
+  transition: 1s;
+  font-weight: 600;
+  z-index: 1;
+}
+.seek:hover {
+  cursor: pointer;
+  background-color: black;
+  color: rgb(0, 200, 175);
+  transition: 1s;
+}
+.see > img {
+  position: absolute;
+  top: 35%;
+  right: 3%;
+  height: 40px;
+  width: 170px;
+}
+
+.sam {
+  position: relative;
+  height: 750px;
+  width: 100%;
+}
+.sam .club {
+  position: absolute;
+  height: 670px;
+  width: 28%;
+  top: 2%;
+  left: 5%;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 7px 6px rgb(209, 206, 206);
+}
+.club > img {
+  position: absolute;
+  height: 120px;
+  width: 130px;
+  top: 0%;
+  left: 30%;
+}
+.club > p {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.club .graph {
+  position: absolute;
+  height: 160px;
+  width: 44%;
+  border: 1px solid gray;
+  top: 45%;
+  left: 5.5%;
+  border-left: none;
+}
+.club .graph > img {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  left: 22%;
+}
+.club .graph > h1 {
+  position: absolute;
+  top: 56%;
+  left: 27%;
+  font-size: 30px;
+}
+.club .total {
+  position: absolute;
+  top: 69%;
+  left: 5.6%;
+  height: 50px;
+  width: 44%;
+  border: 1px solid gray;
+  border-left: none;
+}
+.total > h3 {
+  position: absolute;
+  top: 27%;
+  left: 17.2%;
+  font-size: 12px;
+  font-weight: 100;
+}
+.club .chat {
+  position: absolute;
+  height: 160px;
+  width: 44%;
+  border: 1px solid gray;
+  top: 45%;
+  left: 49.5%;
+  border-right: none;
+}
+.club .chat > img {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  left: 25%;
+}
+.club .chat > h1 {
+  position: absolute;
+  top: 56%;
+  left: 30%;
+  font-size: 30px;
+  letter-spacing: -3px;
+}
+.club .engage {
+  position: absolute;
+  top: 69%;
+  left: 49.6%;
+  height: 50px;
+  width: 44%;
+  border: 1px solid gray;
+  border-right: none;
+}
+.engage > h3 {
+  position: absolute;
+  top: 27%;
+  left: 17%;
+  font-size: 12px;
+  font-weight: 100;
+}
+.club .butt5 {
+  position: absolute;
+  top: 85%;
+  left: 31%;
+  height: 40px;
+  width: 120px;
+  background-color: rgb(0, 200, 175);
+  color: white;
+  font-size: 10px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  transition: 1s;
+  font-weight: 600;
+  z-index: 1;
+}
+.butt5:hover {
+  background-color: black;
+  cursor: pointer;
+  color: rgb(0, 200, 175);
+  transition: 1s;
+}
+.club .undex {
+  position: absolute;
+  top: 88%;
+  left: 37%;
+  height: 30px;
+  width: 110px;
+}
+.sam .nvidia {
+  position: absolute;
+  left: 36%;
+}
+.nvidia > img {
+  top: 6%;
+  height: 40px;
+  width: 120px;
+}
+.sam .ae {
+  position: absolute;
+  left: 68%;
+}
+.ae > img {
+  top: 5%;
+  height: 70px;
+  width: 120px;
+}
+
+.light {
+  position: relative;
+  background-color: #e7fef8;
+  height: 1200px;
+  width: 92%;
+  left: 4%;
+  /* overflow: hidden; */
+}
+.light .change {
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  top: 5%;
+  left: 30%;
+}
+.change .herobase2 {
+  position: absolute;
+  top: 2%;
+  left: 7%;
+  height: 90%;
+  width: 55%;
+}
+.change .fir {
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  top: 20%;
+  left: 6%;
+  background-color: red;
+  border-radius: 100px;
+  animation: fir1 1.3s linear infinite;
+}
+@keyframes fir1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.change .fir2 {
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  top: 15%;
+  left: 9%;
+  border-radius: 100px;
+  border: 1px solid black;
+  animation: fir2 2s linear infinite;
+}
+@keyframes fir2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.change .fir3 {
+  left: 9%;
+  background-color: green;
+  animation-duration: 1.6s;
+}
+.change .fir4 {
+  position: absolute;
+  top: 25%;
+  left: 9%;
+}
+.change .fir5 {
+  position: absolute;
+  top: 11%;
+  left: 12%;
+  background-color: green;
+}
+.change .fir6 {
+  left: 12%;
+  animation-duration: 1.4s;
+}
+.change .fir7 {
+  top: 20%;
+  left: 12%;
+  animation-duration: 1.7s;
+}
+.change .fir8 {
+  top: 25%;
+  left: 12%;
+  background-color: purple;
+}
+.change .fir9 {
+  left: 26%;
+  top: 23%;
+  background-color: white;
+  animation-duration: 2s;
+}
+.change .fir10 {
+  top: 23%;
+  left: 41%;
+  animation-duration: 1.7s;
+}
+.change .fir11 {
+  top: 27%;
+  background-color: green;
+  left: 41%;
+  animation-duration: 1.9s;
+}
+.change .fir12 {
+  top: 31%;
+  left: 41%;
+  animation-duration: 2s;
+}
+.change .fir13 {
+  top: 35%;
+  background-color: purple;
+  left: 41%;
+  animation-duration: 1.9s;
+}
+.change .fir15 {
+  top: 31%;
+  left: 44%;
+  background-color: lightgreen;
+  animation-duration: 2.3s;
+}
+.change .fir14 {
+  top: 27%;
+  left: 44%;
+  background-color: hotpink;
+}
+
+.change .fir16 {
+  top: 35%;
+  left: 44%;
+  animation-duration: 2.1s;
+}
+.change .fir17 {
+  top: 31%;
+  left: 47%;
+  animation-duration: 1.6ss;
+}
+
+.change .bluebar {
+  position: absolute;
+  left: 14%;
+  top: 40%;
+  height: 20px;
+  width: 90px;
+  z-index: 1;
+}
+.change .linew {
+  position: absolute;
+  height: 17px;
+  width: 90px;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 40.1%;
+  left: 30%;
+  overflow: hidden;
+}
+.linew .botblack {
+  position: absolute;
+  top: 40%;
+  height: 0.8px;
+  background-color: black;
+  width: 100%;
+}
+.linew .seep {
+  position: absolute;
+  height: 9px;
+  width: 150%;
+  top: 18%;
+  animation: bit 3s linear infinite;
+}
+@keyframes bit {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 30%;
+  }
+}
+.change .take {
+  position: absolute;
+  height: 35px;
+  width: 35%;
+  top: 10%;
+  left: 44%;
+  animation: take 1.2s alternate infinite;
+}
+@keyframes take {
+  0% {
+    top: 10%;
+  }
+  100% {
+    top: 7%;
+  }
+}
+
+.change .illus {
+  position: absolute;
+  top: -4%;
+  left: 43%;
+  height: 140px;
+  width: 80px;
+  transform: rotate(40deg);
+}
+.change .bully {
+  position: absolute;
+  top: 70%;
+  left: 58%;
+  height: 40px;
+  transform: rotate(50deg);
+  width: 40px;
+}
+.change .hornline {
+  position: absolute;
+  top: 80%;
+  left: 67%;
+  height: 20px;
+  width: 20px;
+  transform: rotate(30deg);
+  animation: hornline 2s linear infinite;
+}
+@keyframes hornline {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.change .guy {
+  position: absolute;
+  top: 35%;
+  left: 68%;
+  height: 35px;
+  width: 35%;
+  animation: guy 2.3s linear infinite;
+}
+@keyframes guy {
+  0% {
+    top: 35%;
+  }
+  60% {
+    top: 30%;
+  }
+  100% {
+    top: 35%;
+  }
+}
+
+.change .girl {
+  position: absolute;
+  top: 85%;
+  left: 3%;
+  height: 35px;
+  width: 35%;
+  animation: girl 2.3s linear infinite;
+}
+@keyframes girl {
+  0% {
+    top: 85%;
+  }
+  60% {
+    top: 80%;
+  }
+  100% {
+    top: 85%;
+  }
+}
+
+.change .move {
+  position: absolute;
+  top: 52%;
+  left: 15%;
+  height: 11%;
+  width: 142px;
+  overflow: hidden;
+}
+.move .nan {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  animation: nan 5s linear infinite;
+}
+@keyframes nan {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.light .start {
+  position: absolute;
+  height: 150px;
+  width: 320px;
+  top: 30%;
+  left: 34%;
+}
+.start > h1 {
+  position: absolute;
+  top: 0%;
+  left: 9%;
+  font-weight: 100;
+  font-size: 23px;
+}
+.start > p {
+  position: absolute;
+  text-align: center;
+  font-size: 15.48px;
+  top: 40%;
+  line-height: 1.5;
+}
+.light .inp {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  height: 500px;
+  width: 60%;
+}
+.inp .input1 {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  font-size: 12px;
+  box-shadow: 5px 5px 0px 1px #a2fde9;
+  height: 40px;
+  width: 47%;
+}
+.input1::placeholder {
+  color: black;
+}
+.inp .input2 {
+  left: 53%;
+}
+.inp .input3 {
+  top: 13%;
+}
+.inp .input4 {
+  top: 13%;
+  left: 53%;
+}
+.inp .input5 {
+  top: 26%;
+}
+.inp .input6 {
+  top: 26%;
+  left: 53%;
+}
+.inp .fifty{
+  position: relative;
+top:39%;
+  width: 47%;
+  height: 8vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px 1px #a2fde9;
+}
+.fifty .dic{
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.inp .options{
+  width: 47%;
+  height: 8vh;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 5px 5px 0px 1px #a2fde9;
+  top: 39%;
+  left: 53%;
+}
+.options>select{
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.inp .input7 {
+  top: 53%;
+  height:180px;
+  width:100%
+}
+.input7::placeholder{
+  position: absolute;
+padding:20px;
+}
+.inp .bige{
+  position: absolute;
+  top:100%;
+  left:30%;
+  height:50px;
+  width:230px;
+  background-color: rgb(0, 200, 175);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  transition: 1s;
+  z-index: 1;
+  border-radius: 10px;
+}
+.bige:hover{
+  background-color: black;
+  color:rgb(0, 200, 175);
+  cursor: pointer;
+  transition: 1s;
+}
+.inp .rani{
+  position: absolute;
+  top:107%;
+  left:40%;
+height:40px;
+width:220px;
+}
+.light .photo1{
+  position: absolute;
+  height:230px;
+  width:150px;
+right:-4.2%;
+top:75%;
+}
+.light .flo1{
+  position: absolute;
+  top:67%;
+  height:45px;
+  width:45px;
+  right:-3%;
+  animation:flo1 3s linear infinite alternate;
+}
+@keyframes flo1{
+  0%{
+    top:67%;
+  }
+  100%{
+    top:65%;
+  }
+}
+
+.light .flo2{
+  position: absolute;
+  top:75%;
+  height:45px;
+  width:45px;
+  right:5%;
+  animation:flo2 3s linear infinite alternate;
+}
+@keyframes flo2{
+  0%{
+    top:71%;
+  }
+  100%{
+    top:69%;
+  }
+}
+.light .flo3{
+  position: absolute;
+  top:71%;
+  height:45px;
+  width:45px;
+  right:-3.5%;
+  animation:flo3 3s linear infinite alternate;
+}
+@keyframes flo3{
+  0%{
+    top:71.5%;
+  }
+  100%{
+    top:68.5%;
+  }
+}
+
+.seamles{
+  position: relative;
+  height:500px;
+  width:100%;
+}
+.seamles .logo1{
+  position: absolute;
+  height:20px;
+  width:200px;
+  top:10%;
+  left:40%;
+}
+.seamles>h1{
+  position: absolute;
+  top:17%;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  left:35%;
+}
+.seamles .seal{
+  position: absolute;
+  height:130px;
+  width:130px;
+  top:25%;
+  left:6%;}
+.seamles .iconi{
+  position: absolute;
+  top:32%;
+  left:38%;
+  height:80px;
+  width:240px;
+}
+
+.iconi {
+  position: absolute;
+  height:100%;
+  width:20%;
+
+}
+.iconi .fa-facebook-f{
+  position: absolute;
+  left:0%;
+  font-size: 20px;
+color:rgb(0, 200, 175);
+border: 1px solid black;
+padding:15px;
+border-radius: 10px;
+box-shadow: 5px 5px 2px 1px rgb(0, 200, 175);
+}
+.fa-facebook-f:hover{
+  background-color: black;
+  transition: 1s;
+}
+.iconi .fa-twitter{
+  position: absolute;
+  left:25%;
+  font-size: 20px;
+color:rgb(0, 200, 175);
+padding:15px;
+border-radius: 10px;
+box-shadow: 5px 5px 2px 1px rgb(0, 200, 175);
+border: 1px solid black;
+}.fa-twitter:hover{
+  background-color: black;
+  transition: 1s;
+}
+.iconi .fa-instagram{
+  position: absolute;
+  left:50%;
+  font-size: 20px;
+color:rgb(0, 200, 175);
+padding:15px;
+border-radius: 10px;
+box-shadow: 5px 5px 2px 1px rgb(0, 200, 175);
+border: 1px solid black;
+}
+.fa-instagram:hover{
+  background-color: black;
+  transition: 1s;
+}.iconi .fa-linkedin-in{
+  position: absolute;
+  left:75%;
+  font-size: 20px;
+color:rgb(0, 200, 175);
+padding:15px;
+border-radius: 10px;
+box-shadow: 5px 5px 2px 1px rgb(0, 200, 175);
+border: 1px solid black;
+}
+.fa-linkedin-in:hover{
+  background-color: black;
+  transition: 1s;
+}
+.seamles .class1{
+  position: absolute;
+  top:60%;
+  left:9%;
+  font-size: 11px;
+  list-style: none;
+}
+.class1>li{
+  margin-top: 12px;
+}
+.seamles .class2{
+  left:26%
+}
+.seamles .class3{
+  left:44%;
+}
+.seamles .class4{
+  left:61%;
+}
+.seamles .class5{
+  left:81%;
+}
+
+.class1>li:hover{
+  color:rgb(0, 200, 175);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.class1>li:nth-child(1):hover{
+  color:black;
+}
+.seamles>p{
+  position: absolute;
+  top:94%;
+  left:8%;
+  font-size: 12px;
+}
+.seamles>h3{
+  position: absolute;
+  top:95%;
+  font-weight: 100;
+  left:81%;
+  font-size: 12px;
+}
+.seamles>h3>span:hover{
+  color:rgb(0, 200, 175);
+cursor: pointer;
+transition: 1s;}
+
+
+  
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<svg width="32px" height="45px" viewBox="0 0 32 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 10</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dropdown" transform="translate(-506.000000, -410.000000)">
+            <g id="Dropwown" transform="translate(456.682848, 119.000000)">
+                <g id="Group-8" transform="translate(49.317152, 291.000000)">
+                    <polygon id="Fill-1" fill="#FFCC80" points="3.968 43.5847 30.807 43.5847 30.807 21.1807 3.968 21.1807"></polygon>
+                    <g id="Group-7" transform="translate(0.000000, 0.083700)">
+                        <polygon id="Stroke-2" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" points="0.5 43.5 30.807 43.5 30.807 17.75 0.5 17.75"></polygon>
+                        <path d="M6.3605,17.7497 L6.3605,9.7087 C6.3605,4.5767 10.5215,0.4167 15.6535,0.4167 C20.7855,0.4167 24.9465,4.5767 24.9465,9.7087 L24.9465,17.7497" id="Stroke-4" stroke="#212121" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M19.1422,27.5593 C19.1422,29.5353 17.5402,31.1373 15.5642,31.1373 C13.5892,31.1373 11.9872,29.5353 11.9872,27.5593 C11.9872,25.5833 13.5892,23.9813 15.5642,23.9813 C17.5402,23.9813 19.1422,25.5833 19.1422,27.5593" id="Fill-5" fill="#212121"></path>
+                        <polygon id="Fill-6" fill="#212121" points="13.5627 28.7434 17.5667 28.7434 18.1867 36.3924 12.9427 36.3924"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
